@@ -6,9 +6,6 @@ Clone this repo and then in command line type:
 * `gulp` - run dev-server and let magic happen, or
 * `gulp build` - build project from sources
 * `gulp clean` - clean build folder
-* `gulp tophp` - build project to folder with wordpress
-* `gulp cp -n [pagename]` - create page template(html, css, js)
-* `gulp cp -n [pagename] --nojs` - create page template without js(html, css)
 
 --
 
@@ -29,8 +26,5 @@ You can also use [npm scripts](https://docs.npmjs.com/misc/scripts):
 
 * `npm run start` - same as `gulp default`.
 * `npm run build` - same as `gulp build`.
-* `npm run ghpages` to push only `./build` folder to **gh-pages** branch on github (very useful for previews).
-* `npm run lint` - linting javascript with **eslint**.
-* `npm run lint-fix` - fix as many issues as possible relatives to **eslint** settings.
 
 

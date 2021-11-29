@@ -1,12 +1,12 @@
 {
   "name": "emotion-template",
-  "version": "1.1.4",
+  "version": "1.0.0",
   "description": "Base emotion agency template",
   "main": "index.html",
   "scripts": {
     "build": "gulp build --production",
     "webpack": "webpack",
-    "start": "gulp",
+    "dev": "gulp",
     "precommit": "lint-staged",
     "lint": "eslint --ignore-pattern 'src/js/libs/' --cache --format=node_modules/eslint-formatter-pretty src/js/",
     "lint-fix": "npm run lint -- --fix"
